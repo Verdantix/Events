@@ -793,16 +793,5 @@ var speakerData = [{
     linkedIn: "https://www.linkedin.com/in/mtohani/",
     position: "panelist",
     speaking: ['s104']
-},
-{
-    id: "arronWilson",
-    name: "Arron Wilson",
-    title: "Brand Manager",
-    company: "Verdantix",
-    photo: "https://events.verdantix.com/wp-content/uploads/2021/02/Blank_Profile.png",
-    bio: "My bio is coming soon",
-    linkedIn: "https://uk.linkedin.com/in/arronwilson",
-    position: "panelist",
-    speaking: ['s104', 's203']
 }
 ]
