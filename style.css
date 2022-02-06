@@ -187,23 +187,23 @@ button:hover,
 button:focus {
     border-radius: 2px;
 }
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+.btn_round{display:inline-block;line-height:1.4;vertical-align:middle;font-weight:800;background-color:#ccc;padding:16px 30px;border-radius:4px;font-size:16px;text-decoration:none;cursor:pointer;text-align:center;-webkit-appearance:none;position:relative;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.btn_prime-vblue, input.btn_prime-vblue{background-color:#225EEC;color:#fff;transition: all .2s ease-in-out;}
+.btn_prime-vblue:hover, input.btn_prime-vblue:hover{background-color:#4277f5;color:#fff}
+.btn_prime-white{background-color:#ffffff;color:#111326;transition: all .2s ease-in-out;}
+.btn_prime-white:hover{background-color:#ffffffd0; color:#111326}
+.btn_prime-coral{background-color:#F84854;color:#ffffff;transition: all .2s ease-in-out;}
+.btn_prime-coral:hover{background-color:#f6656f; color:#ffffff}
+.btn_prime-coral:visited{color:#ffffff}
 
-a.btn_round{display:inline-block;line-height:1.4;vertical-align:middle;font-weight:800;background-color:#ccc;padding:16px 30px;border-radius:4px;font-size:16px;text-decoration:none;cursor:pointer;text-align:center;-webkit-appearance:none;position:relative;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-a.btn_prime-vblue, input.btn_prime-vblue{background-color:#225EEC;color:#fff;transition: all .2s ease-in-out;}
-a.btn_prime-vblue:hover, input.btn_prime-vblue:hover{background-color:#4277f5;color:#fff}
-a.btn_prime-white{background-color:#ffffff;color:#111326;transition: all .2s ease-in-out;}
-a.btn_prime-white:hover{background-color:#ffffffd0; color:#111326}
-a.btn_prime-coral{background-color:#F84854;color:#ffffff;transition: all .2s ease-in-out;}
-a.btn_prime-coral:hover{background-color:#f6656f; color:#ffffff}
-a.btn_prime-coral:visited{color:#ffffff}
-
-a.btn_margin{
+.btn_margin{
   margin:30px 0px;
 }
-a.btn_round.btn_prime-vblue.inc-arrow.toRegistration, a.registerBanner.inc-arrow {
-color:#ffffff;
-}
-a.inc-arrow::after {
+.inc-arrow::after {
   text-decoration: none;
   font-family: "Font Awesome 5 Free";
   content: "\f061";
@@ -215,7 +215,7 @@ a.inc-arrow::after {
   transition: all .5s ease-in-out;
 }
 
-a:hover.inc-arrow::after {
+span:hover.inc-arrow::after {
   transform: translateX(18px);
 }
 
@@ -233,14 +233,14 @@ a:hover.inc-arrow::after {
   content: "\f063";
 }
 
-:hover.downArrow::after {
+span:hover.downArrow::after {
   animation: 1.5s ease-out 0s infinite up;
 }
 .upArrow::after {
   content: "\f062";
 }
 
-:hover.upArrow::after {
+span:hover.upArrow::after {
   animation: 1.5s ease-out 0s infinite up;
 }
 @-webkit-keyframes down {
@@ -3584,7 +3584,7 @@ background:#f6f6f6d8;
 .toTop:hover {
   opacity: .6;
 }
-a.registerBanner {
+.registerBanner {
   text-decoration: none;
   text-align: center;
   font-family:'Open Sans', sans-serif;
