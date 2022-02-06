@@ -61,14 +61,14 @@ $('.modalName').click(function () {
     var popModal = ('.popModal');
     if ($('.' + modalName + popModal)[0]) {
         //console.log(modalName + popModal);
-        $('.' + modalName + popModal).show(400);
+        $('.' + modalName + popModal).show(300);
         $('body').addClass('stop-scrolling');
         $('.modalWidth').addClass("margin-right");
         $('.modalContent').css("margin-right", "42px");
     }
 });
 $('.close, .modalContainer, .speakingSession a, .speakingSession div').click(function () {
-    $('.popModal').hide(400);
+    $('.popModal').hide(300);
     $('body').removeClass('stop-scrolling');
     $('.modalWidth').removeClass("margin-right");
     $('.modalContent').css("margin-right", "25px");
