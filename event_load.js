@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $.ajax({
         type:"post",
-        url:"https://dl.dropbox.com/s/3cdksds4bovxbju/data.json",
+        url:"https://raw.githubusercontent.com/VDX-awilson/Events/main/event_data.json",
         data:"data1",
         dataType:"json",
         success:function(data){
