@@ -188,7 +188,7 @@ $( ".toggleLabel" ).click(function() {
 });
 function toggleViewer() {
     $( ".summit_agenda_session" ).each(function() {
-        $(this).find('.session-type:eq( 1 )').toggle('slow');
+        $(this).find('.typePanelists').toggle('slow');
     });
     $('.session-summary, .researchContainer').toggle('slow');
     $(".toggleLabel span").filter(':nth-child(1), :nth-child(2)').toggle();

@@ -180,6 +180,13 @@ $.each(sessionData, function( i, session ) {
             '</ul>'
             : ''
         )+
+        (session.type === "Keynote" || session.type === "Awards" ?
+            '<div class="session-type typePanelists">'+
+            '</div>'+
+            '<ul class="virtualSummit_speaker">'+
+            '</ul>'
+            : ''
+        )+
         '</div>'+
         '</div>'+
         '</div>'
@@ -189,7 +196,18 @@ $.each(sessionData, function( i, session ) {
 $.each(speakerData, function( i, speaker ) {
     for (var i = 0; i < speaker.speaking.length; i++) {
         $("."+speaker.speaking[i]+ " .virtualSummit_speaker").append(
-            '<li><span class="modalName '+speaker.id+'"><span class="agendaProfile" style="background-image:url('+speaker.photo+')"></span>'+speaker.name+'</span>, '+speaker.title+' at '+speaker.company+'</li>'
+            (speaker.position === "chair" ?
+                '<li><span class="modalName '+speaker.id+'"><span class="agendaProfile" style="background-image:url('+speaker.photo+')"></span>'+speaker.name+'</span>, '+speaker.title+' at '+speaker.company+'</li>'
+                : ''
+            )+
+            (speaker.position === "analyst" ?
+                '<li><span class="modalName '+speaker.id+'"><span class="agendaProfile" style="background-image:url('+speaker.photo+')"></span>'+speaker.name+'</span>, '+speaker.title+' at '+speaker.company+'</li>'
+                : ''
+            )+
+            (speaker.position === "panelist" ?
+                '<li><span class="modalName '+speaker.id+'"><span class="agendaProfile" style="background-image:url('+speaker.photo+')"></span>'+speaker.name+'</span>, '+speaker.title+' at '+speaker.company+'</li>'
+                : ''
+            )
         );
     }
 });

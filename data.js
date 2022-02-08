@@ -11,6 +11,7 @@ var sessionData = [{
         title: "EHS & Operations",
         summary: "EHS & operations functions around the world demonstrated their strategic value during the pandemic, but they now face a new focus as CEOs turn their attentions to ongoing operational resilience and innovative performance. This virtual summit will examine the main environmental strategic priorities for organisations in 2022.",
         agendaIndex: "tab-btn-one",
+        chair: "billPennington",
         css: "Keynote"
     },
     {
@@ -25,6 +26,7 @@ var sessionData = [{
         title: "Taking EHS To The Next Level Of Success",
         summary: "EHS functions around the world demonstrated their strategic value during the pandemic. As CEOs now turn their focus to ongoing operational resilience and ESG performance there is an opportunity for EHS leaders to take their functions to the next level of success. This session will cover the new initiatives that EHS leaders can take in 2022 to maintain their strategic importance in the business at a time when organizational responsibilities are changing and the range of EHS tasks expanding.",
         agendaIndex: "tab-btn-one",
+        chair: "billPennington",
         css: ""
     },
     {
@@ -39,6 +41,7 @@ var sessionData = [{
         title: "Best Practices For Worker Health Programs In A Post-Pandemic World",
         summary: "The Covid-19 pandemic has put worker health issues at the top of the priority list. As we emerge from crisis management EHS leaders need to cope with a vast array of worker health issues such as mental wellbeing, hybrid working and psychological safety. This session will help attendees understand how to rescope and repriortize worker health isues in a changed world challenged by the pandemic and a battle for talent.",
         agendaIndex: "tab-btn-one",
+        chair: "billPennington",
         css: ""
     },
     {
@@ -68,6 +71,7 @@ var sessionData = [{
         title: "Time For An Environmental Risk Upgrade: Mitigating More Severe Natural Hazards",
         summary: "Businesses face a significant increase in risks caused by uncontainable wildfires, more intense rainfall, more severe tornadoes and more powerful hurricanes. Natural hazards increasingly knock linear infrastructure out of action as well as triggering environmental spills and process safety events. This session will frame the issues caused by more intense natural hazards and provide a framework for developing an upgraded environmental risk management plan.",
         agendaIndex: "tab-btn-one",
+        chair: "billPennington",
         css: ""
     },
     {
@@ -82,6 +86,7 @@ var sessionData = [{
         title: "Refocusing On The Prevention Of Serious Injuries & Fatalities",
         summary: "As safety leaders switched their attention to business continuity and Covid-19 risk management they unable to dedicate additional resource to improving SIF and HiPo prevention programs. What’s more, new work routines and reduced on-site safety audits introduced more risks. This session will help safety leaders reboot their SIF programs and learn from experts on new dynamic risk management tools and integrated process safety IT systems",
         agendaIndex: "tab-btn-one",
+        chair: "billPennington",
         css: ""
     },
     {
@@ -96,6 +101,7 @@ var sessionData = [{
         title: "ESG & Sustainability",
         summary: "To better serve their organizations, EHS and operations leaders need to understand how ESG and sustainability commitments and expectations are driving change across the firm. This virtual summit will discuss active sustainability strategies, including the importance of investor-grade ESG data and the role of EHSQ compliance and risk management.",
         agendaIndex: "tab-btn-two",
+        chair: "kimKnickle",
         css: "Keynote"
     },
     {
@@ -110,6 +116,7 @@ var sessionData = [{
         title: "Next Generation Chief Sustainability Officers Will Reshape Strategies",
         summary: "As CEOs have become more cognizant of the impact of ESG performance on company valuation, they have been looking for CSOs with a financial, strategic and change management skill set. This session will discuss how the new generation of CSOs are turning passive sustainability strategies centred on corporate communications into active strategies which change operational processes and ultimately adapt business models.",
         agendaIndex: "tab-btn-two",
+        chair: "kimKnickle",
         css: ""
     },
     {
@@ -124,6 +131,7 @@ var sessionData = [{
         title: "The Future Is Now: ESG Disclosures, Scores & Ratings",
         summary: "Financial markets have moved at an incredible pace in the last 3 years to integrate Environmental, Social and Governance factors into investment and lending decisions. Regulators are now catching up with new mandatory disclosures and financial reporting rules rolling out this year and into 2024. This session will walk through the looming compliance requirements and help attendees understand how smart data management strategies will reduce the cost of compliance and boost ESG scores.",
         agendaIndex: "tab-btn-two",
+        chair: "kimKnickle",
         css: ""
     },
     {
@@ -153,6 +161,7 @@ var sessionData = [{
         title: "Implementing Sustainability Strategies: The Role Of EHS, Real Estate & Operations",
         summary: "As firms finalize their sustainability strategies it becomes clear that operational business functions - EHS, engineering, real estate and maintenance - are critical to drive implementation and boost ESG performance. This session will share insights on the role of each function, the need to tie together performance data from multiple existing systems and the evolution in the strategy-to-implementation organizational model.",
         agendaIndex: "tab-btn-two",
+        chair: "kimKnickle",
         css: ""
     },
     {
@@ -167,6 +176,7 @@ var sessionData = [{
         title: "ESG Regulations Elevate The Strategic Significance Of EHSQ Compliance",
         summary: "Historically, EHS non-compliances have rarely impacted investor sentiment. More recently, sustainability risks have received more attention. As ESG reporting becomes mandatory, firms will find that a broader range of EHS and sustainability disclosures get scrutinized by investors, lenders and board directors. This session will explain how AI is being used for reputational risk monitoring and why firms need to assess how robust their compliance systems are for ESG-related data.",
         agendaIndex: "tab-btn-two",
+        chair: "kimKnickle",
         css: ""
     },
     {
@@ -181,6 +191,7 @@ var sessionData = [{
         title: "Net Zero & Energy Transition",
         summary: "Thousands of firms across the globe are making commitments to achieve net zero emissions or to migrate to a lower carbon operational model but few have a strategy in place that will help them deliver on this goal.",
         agendaIndex: "tab-btn-two",
+        chair: "davidMetcalfe",
         css: "Keynote"
     },
     {
@@ -195,6 +206,7 @@ var sessionData = [{
         title: "From Net Zero Pledge To Realistic Pathway & Action Plan",
         summary: "Thousands of CEOs are making public pledges that their firm will operate on a net zero emission basis at a future date ranging from the present to 2050. These pledges leave operational leaders scrambling to define a realistic decarbonization pathway and implementation program. This session will cover the key elements of net zero emissions strategies and the essential role of data and digital technology to optimize implementation.",
         agendaIndex: "tab-btn-three",
+        chair: "davidMetcalfe",
         css: ""
     },
     {
@@ -209,6 +221,7 @@ var sessionData = [{
         title: "Defining Your Enterprise Carbon Management Solution Requirements",
         summary: "Firms are coming under increasing pressure to implement a robust, enterprise-wide carbon management system which provides the data, insights and levers to meet disclosure requirements as well as enabling net zero strategy implementation. This session will walk through the vision, strategic goals and business requirements which will define the scope and functionality of your carbon management platform.",
         agendaIndex: "tab-btn-three",
+        chair: "davidMetcalfe",
         css: ""
     },
     {
@@ -238,6 +251,7 @@ var sessionData = [{
         title: "Digital Solutions For Carbon Management: Corporate, Financial & Industrial",
         summary: "Business requirements for carbon management are diverging from the traditional carbon footprint analysis as financial institutions face climate risk stress tests, asset managers must provide updates on financed emissions and industrial firms tangle with the complex data to inform long-term energy transition strategies. This session will provide detailed descriptions of distinct business and technical requirements of three flavors of carbon management software for financial, fossil fuel intensive industrials and other corporate buyers.",
         agendaIndex: "tab-btn-three",
+        chair: "davidMetcalfe",
         css: ""
     },
     {
@@ -252,6 +266,7 @@ var sessionData = [{
         title: "Innovation Awards",
         summary: "The prestigious Verdantix Innovation Excellence Awards will recognize the people and organizations who are instrumental in implementing successful, innovative technologies that improve processes, management and reporting. This year the annual awards ceremony will take place virtually, with the trophies being presented at the in-person Innovating For Sustainable Operations summit taking place in Austin, Texas, 24-26 October 2022.",
         agendaIndex: "tab-btn-three",
+        chair: "davidMetcalfe",
         css: "awards"
     }
 ];
@@ -420,9 +435,9 @@ var sponsorData = [
     linkedIn: "https://www.linkedin.com/company/origami-risk/",
     twitter: "",
     bio: "Origami Risk’s EHS suite, available on web and mobile, includes safety management, process safety management, occupational health, and environmental management offerings. Origami’s analytics tools enable EHS professionals to drive visibility into their safety data and initiatives in a single, centralized system.",
-    resourceA: ["Integrated solutions for reducing incidents & hazards", "Find our more", "https://www.origamirisk.com/products/environment-health-safety"],
-    resourceB: ["EHS Solution Suite Overview", "Find out more", "https://www.origamirisk.com/ehs-solution-suite-overview"],
-    resourceC: ["2021 Buyer’s Guide: Safety Management Software", "Download", "https://www.origamirisk.com/resources/industry-reports/2021-buyers-guide-safety-management-software"]
+    resourceA: ["Integrated solutions for reducing incidents & hazards", "Find our more", "https://www.origamirisk.com/products/environment-health-safety?utm_source=verdantix&utm_medium=marketing&utm_campaign=verdantix&utm_content=ehs_homepage"],
+    resourceB: ["EHS Solution Suite Overview", "Find out more", "https://www.origamirisk.com/ehs-solution-suite-overview?utm_source=verdantix&utm_medium=marketing&utm_campaign=verdantix&utm_content=ehs_solution_suite"],
+    resourceC: ["2021 Buyer’s Guide: Safety Management Software", "Download", "https://www.origamirisk.com/resources/industry-reports/2021-buyers-guide-safety-management-software?utm_source=verdantix&utm_medium=marketing&utm_campaign=verdantix&utm_content=industry_report_buyerguide"]
 },
 {
     id: "planon",
@@ -498,17 +513,8 @@ var sponsorData = [
 }
 ];
 
-var speakerData = [{
-    id: "davidMetcalfe",
-    name: "David Metcalfe",
-    title: "CEO",
-    company: "Verdantix",
-    photo: "https://events.verdantix.com/wp-content/uploads/2021/08/David-Metcalfe_Rectangle.png",
-    bio: "David is the CEO of Verdantix and co-founded the firm in 2008. Based on his 20 years of experience in technology strategy and research roles he provides guidance on digital strategies to C-level executives at technology providers, partners at private equity firms and function heads at large corporations. His current focus is on helping clients understand their market opportunity tied to ESG investment trends and their impact on corporate sustainability strategies. During his 12 years running Verdantix – including 4 leading the New York office – he has helped dozens of clients grow their businesses through fund raising, acquisitions and international growth. David was previously SVP Research at Forrester and Head of Analysis & Forecasting at BT. He holds a PhD from Cambridge University and also worked as a Research Associate at the Harvard Business School.",
-    linkedIn: "https://www.linkedin.com/in/david-metcalfe-08352b1/",
-    position: "chair",
-    speaking: ['s101', 's204', 's301', 's302', 's304']
-},{
+var speakerData = [
+{
     id: "kimKnickle",
     name: "Kim Knickle",
     title: "Research Director, ESG & Sustainability",
@@ -517,7 +523,7 @@ var speakerData = [{
     bio: "Kim leads the Verdantix ESG & Sustainability practice, addressing business challenges and priorities in ESG and sustainability through technology. Her current research agenda focuses on ESG, sustainability and climate change services market forecast, and digital strategies to improve sustainability risk management. Her research expertise also includes manufacturing and retail industry subject matter expert, thought leadership, storytelling, emerging technology research and analysis (cloud, artificial intelligence, augmented and virtual reality, computer vision, IoT), sales enablement, competitive and SWOT analysis, market research, research operations.",
     linkedIn: "https://www.linkedin.com/in/kim-knickle/",
     position: "chair",
-    speaking: ['s201', 's202', 's203', 's204']
+    speaking: ['s200', 's201', 's202', 's203', 's204']
 },
 {
     id: "billPennington",
@@ -528,7 +534,18 @@ var speakerData = [{
     bio: "Bill leads the Verdantix Environment, Health & Safety practice. His current agenda focuses on EHS and sustainability services, product stewardship as well as benchmarking EHS technology buyer’s budgets, priorities and preferences globally. Bill comes from a background of corporate EHS roles in the manufacturing and logistics industries. He holds an MBS degree in sustainability from the Rutgers University.",
     linkedIn: "https://www.linkedin.com/in/bill-pennington-33612930/",
     position: "chair",
-    speaking: ['s101', 's102', 's103', 's104']
+    speaking: ['s100', 's101', 's102', 's103', 's104']
+},  
+{
+    id: "davidMetcalfe",
+    name: "David Metcalfe",
+    title: "CEO",
+    company: "Verdantix",
+    photo: "https://events.verdantix.com/wp-content/uploads/2021/08/David-Metcalfe_Rectangle.png",
+    bio: "David is the CEO of Verdantix and co-founded the firm in 2008. Based on his 20 years of experience in technology strategy and research roles he provides guidance on digital strategies to C-level executives at technology providers, partners at private equity firms and function heads at large corporations. His current focus is on helping clients understand their market opportunity tied to ESG investment trends and their impact on corporate sustainability strategies. During his 12 years running Verdantix – including 4 leading the New York office – he has helped dozens of clients grow their businesses through fund raising, acquisitions and international growth. David was previously SVP Research at Forrester and Head of Analysis & Forecasting at BT. He holds a PhD from Cambridge University and also worked as a Research Associate at the Harvard Business School.",
+    linkedIn: "https://www.linkedin.com/in/david-metcalfe-08352b1/",
+    position: "chair",
+    speaking: [ 's101', 's204','s300', 's301', 's302', 's303', 's304']
 },
 {
     id: "rodolpheddArjuzon",
@@ -615,7 +632,7 @@ var speakerData = [{
     photo: "https://events.verdantix.com/wp-content/uploads/2022/02/TH.png",
     bio: "Rob Garcia has spent the last decade emersed in the integrated risk management software space. From product design to sales and implementation, Rob has directed innovation in the Americas, EMEA, and APAC markets. Most recently, he worked as an advisory consultant for a GRC services partner specializing in large scale software deployments for asset intensive organizations before joining Wolters Kluwer | Enablon as a Solution Consultant and Risk Management Subject Matter Expert.",
     linkedIn: "https://www.linkedin.com/in/1tonyhenshaw/",
-    position: "panelist",
+    position: "analyst",
     speaking: ['s201', 's301']
 },
 {
@@ -703,7 +720,7 @@ var speakerData = [{
     photo: "https://events.verdantix.com/wp-content/uploads/2022/01/Stuart-Neumann_Rectangle.png",
     bio: "Stuart Neumann leads Verdantix consulting services worldwide which involves delivering high impact projects for clients seeking help with challenges and opportunities in the energy, EH&S and sustainability markets. His client project experience in the energy sector spans energy services commercial due diligence, go to market strategy, renewable energy market forecasts, power utility sustainability benchmarks and CEO-level thought leadership projects. Stuart joined Verdantix in 2010. Prior to his career at Verdantix, Stuart was a management consultant at Accenture for 5 years. Stuart holds an MSc in Environmental Geomorphology from Oxford University and a BA in Geography from the University of Nottingham.",
     linkedIn: "https://www.linkedin.com/in/stuart-neumann-6a870021/",
-    position: "panelist",
+    position: "analyst",
     speaking: ['s302']
 },
 {
@@ -736,7 +753,7 @@ var speakerData = [{
     photo: "https://events.verdantix.com/wp-content/uploads/2022/02/JP.png",
     bio: "Bio coming soon",
     linkedIn: "https://www.linkedin.com/in/jessica-pransky-58704112/",
-    position: "panelist",
+    position: "analyst",
     speaking: ['s103']
 },
 {
@@ -747,7 +764,7 @@ var speakerData = [{
     photo: "https://events.verdantix.com/wp-content/uploads/2022/01/Sam-Renshaw_Rectangle.png",
     bio: "Sam is an Industry Analyst in the ESG & Sustainability practice. His current research agenda focuses on ESG solutions across financial markets including ESG information providers and sustainability consulting. Sam joined Verdantix in 2021, and previously worked at Moody’s Analytics as part of the Buy-Side Solutions team. He holds a BSc from The University of Nottingham in Economics and is a CFA Level 2 candidate.",
     linkedIn: "https://www.linkedin.com/in/sam-renshaw-47aa0610a/",
-    position: "panelist",
+    position: "analyst",
     speaking: ['s202']
 },
 {
@@ -758,7 +775,7 @@ var speakerData = [{
     photo: "https://events.verdantix.com/wp-content/uploads/2022/01/Chris-Sayers_Rectangle.png",
     bio: "Chris is a Technology Analyst in the Verdantix EHS practice. His current research agenda focuses on digital mental health and wellbeing solutions. Chris joined Verdantix in 2020 and has previous experience at EY, where he specialised in robotic process automation (RPA). He holds an M.Eng. in Engineering Science from Oxford University with a concentration in machine learning and machine vision.",
     linkedIn: "https://www.linkedin.com/in/christopher-sayers-676438148/",
-    position: "panelist",
+    position: "analyst",
     speaking: ['s102']
 },
 {
@@ -780,7 +797,7 @@ var speakerData = [{
     photo: "https://events.verdantix.com/wp-content/uploads/2022/01/Connor-Taylor_Rectangle.png",
     bio: "Connor is a Technology Analyst in the ESG & Sustainability practice. His current research agenda focuses on emerging software solutions across financial markets, and broader market trends in the ESG space. Connor joined Verdantix in 2021 and has experience in EHS technology sales and development. He holds a B.A from Cambridge University in Anglo-Saxon, Norse and Celtic.",
     linkedIn: "https://www.linkedin.com/in/connor-taylor-317b3b167/",
-    position: "panelist",
+    position: "analyst",
     speaking: ['s303']
 },
 {
@@ -791,7 +808,7 @@ var speakerData = [{
     photo: "https://events.verdantix.com/wp-content/uploads/2021/10/Malavika-Tohani_Rectangle.png",
     bio: "Malavika leads the Verdantix Operational Excellence practice. Her current research agenda focuses on digital technologies for Operational Excellence including digital twins and software solutions for industrial risk and asset management. Malavika has over 15 years’ experience in research and strategy consulting. Malavika previously worked at Frost & Sullivan, managing and delivering advisory projects for clients involving expansion, acquisition, benchmarking and product development strategies. Malavika holds a MSc in Economics from Madras School of Economics.",
     linkedIn: "https://www.linkedin.com/in/mtohani/",
-    position: "panelist",
+    position: "analyst",
     speaking: ['s104']
 }
 ]
