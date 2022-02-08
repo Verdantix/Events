@@ -1,11 +1,6 @@
 $(document).ready(function() {
 
-    $.ajax({
-        type:"post",
-        url:"https://raw.githubusercontent.com/VDX-awilson/Events/main/event_data.json",
-        data:"data1",
-        dataType:"json",
-        success:function(data){
+    $.getJSON( "https://raw.githubusercontent.com/VDX-awilson/Events/main/event_data.json", function( data ) {
   
         //Generate Speaker Tiles
 $.each(data.speakerData, function( i, speaker ) {
@@ -304,9 +299,5 @@ $.each(data.speakerData, function( i, speaker ) {
                 scrollTop: ($('#session-4').offset().top)
             },0);
         });
-    },
-    error:function(data){
-    }
     });
-    return false;
 });
