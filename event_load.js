@@ -5,7 +5,7 @@ $(document).ready(function() {
         //Generate Speaker Tiles
 $.each(data.speakerData, function( i, speaker ) {
     $(".speaker__grid-summit").append(
-        '<div class="modalTile '+speaker.id+' '+speaker.position+'">'+
+        '<div class="modalTile speakerTile '+speaker.id+' '+speaker.position+'">'+
         '<div class="speakerImage" style="background-image:url('+speaker.photo+')"></div>'+
         '<div class="speakerDetails">'+
         '<p class="speakerName">'+speaker.name+'</p>'+

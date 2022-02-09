@@ -15,17 +15,22 @@ $( ".item" ).mouseleave(function() {
 $(".clock").click(function () {
   var active = !$(this).hasClass("btn_simple_active");
   if ( $(this).hasClass("selectGMT") && active ) {
-      toggleTime();
+      $(".selectEDT, .selectCDT").removeClass("btn_simple_active");
       $(".selectGMT").addClass("btn_simple_active");
-      $(".selectEST").removeClass("btn_simple_active");
+      $(".GMT").css("display", "block").animate({opacity: 0.25}).animate({opacity: 1});
+      $(".EDT, .CDT").css("display", "none");
   }
-  if ( $(this).hasClass("selectEST") && active ) {
-      toggleTime();
-      $(".selectGMT").removeClass("btn_simple_active");
-      $(".selectEST").addClass("btn_simple_active");
+  if ( $(this).hasClass("selectEDT") && active ) {
+      $(".selectGMT, .selectCDT").removeClass("btn_simple_active");
+      $(".selectEDT").addClass("btn_simple_active");
+      $(".EDT").css("display", "block").animate({opacity: 0.25}).animate({opacity: 1});
+      $(".GMT, .CDT").css("display", "none");
   }
-  function toggleTime() {
-      $(".GMT, .EST").toggle().animate({opacity: 0.25}).animate({opacity: 1});
+  if ( $(this).hasClass("selectCDT") && active ) {
+      $(".selectGMT, .selectEDT").removeClass("btn_simple_active");
+      $(".selectCDT").addClass("btn_simple_active");
+      $(".CDT").css("display", "block").animate({opacity: 0.25}).animate({opacity: 1});
+      $(".GMT, .EDT").css("display", "none");
   }
   localStorage.setItem('btnClicked', $(this).text());
 });
