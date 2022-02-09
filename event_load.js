@@ -61,7 +61,8 @@ $.each(data.sessionData, function( i, session ) {
         '<p class="time">'+
         '<span>Day '+session.day+' — </span>'+
         '<span class="GMT">'+session.gmt+'</span>'+
-        '<span class="EST">'+session.est+'</span>'+
+        '<span class="EDT">'+session.edt+'</span>'+
+        '<span class="CDT">'+session.cdt+'</span>'+
         '</p>'+
         '<p class="sessionName">'+session.title+'</p>'+
         '</div>'
@@ -151,7 +152,7 @@ $.each(data.sessionData, function( i, session ) {
         '<div class="summit_agenda_session '+session.id+' '+session.css+'">'+
         '<div class="session_container">'+
         '<div class="session-time">'+
-        '<p class="time"><span class="GMT">'+session.gmt+'</span><span class="EST">'+session.est+'</span></p>'+
+        '<p class="time"><span class="GMT">'+session.gmt+'</span><span class="EDT">'+session.edt+'</span><span class="CDT">'+session.cdt+'</span></p>'+
         '</div>'+
         '<div>'+
         '<div class="session-type">'+
@@ -248,16 +249,21 @@ $.each(data.speakerData, function( i, speaker ) {
             var clicked = localStorage.getItem("btnClicked");
             if (clicked === 'GMT') {
                 $(".GMT").css("display", "block");
-                $(".EST").css("display", "none");
+                $(".EDT, .CDT").css("display", "none");
                 $(".selectGMT").addClass("btn_simple_active");
-                $(".selectEST").removeClass("btn_simple_active");
+                $(".selectEDT, .selectCDT").removeClass("btn_simple_active");
+            } else if (clicked === 'EDT') {
+                $(".EDT").css("display", "block");
+                $(".GMT, .CDT").css("display", "none");
+                $(".selectGMT, .selectCDT").removeClass("btn_simple_active");
+                $(".selectEDT").addClass("btn_simple_active");
             } else {
-                $(".EST").css("display", "block");
-                $(".GMT").css("display", "none");
-                $(".selectGMT").removeClass("btn_simple_active");
-                $(".selectEST").addClass("btn_simple_active");
+                $(".CDT").css("display", "block");
+                $(".GMT, .EDT").css("display", "none");
+                $(".selectGMT, .selectEDT").removeClass("btn_simple_active");
+                $(".selectCDT").addClass("btn_simple_active");
             }
-          });
+        }); 
           $( "#toggleView" ).click(function() {
             toggleViewer();
           });

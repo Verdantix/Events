@@ -15,17 +15,22 @@ $( ".item" ).mouseleave(function() {
 $(".clock").click(function () {
     var active = !$(this).hasClass("btn_simple_active");
     if ( $(this).hasClass("selectGMT") && active ) {
-        toggleTime();
+        $(".selectEDT, .selectCDT").removeClass("btn_simple_active");
         $(".selectGMT").addClass("btn_simple_active");
-        $(".selectEST").removeClass("btn_simple_active");
+        $(".GMT").css("display", "block").animate({opacity: 0.25}).animate({opacity: 1});
+        $(".EDT, .CDT").css("display", "none");
     }
-    if ( $(this).hasClass("selectEST") && active ) {
-        toggleTime();
-        $(".selectGMT").removeClass("btn_simple_active");
-        $(".selectEST").addClass("btn_simple_active");
+    if ( $(this).hasClass("selectEDT") && active ) {
+        $(".selectGMT, .selectCDT").removeClass("btn_simple_active");
+        $(".selectEDT").addClass("btn_simple_active");
+        $(".EDT").css("display", "block").animate({opacity: 0.25}).animate({opacity: 1});
+        $(".GMT, .CDT").css("display", "none");
     }
-    function toggleTime() {
-        $(".GMT, .EST").toggle().animate({opacity: 0.25}).animate({opacity: 1});
+    if ( $(this).hasClass("selectCDT") && active ) {
+        $(".selectGMT, .selectEDT").removeClass("btn_simple_active");
+        $(".selectCDT").addClass("btn_simple_active");
+        $(".CDT").css("display", "block").animate({opacity: 0.25}).animate({opacity: 1});
+        $(".GMT, .EDT").css("display", "none");
     }
     localStorage.setItem('btnClicked', $(this).text());
 });
@@ -45,16 +50,21 @@ $(document).ready(function () {
     var clicked = localStorage.getItem("btnClicked");
     if (clicked === 'GMT') {
         $(".GMT").css("display", "block");
-        $(".EST").css("display", "none");
+        $(".EDT, .CDT").css("display", "none");
         $(".selectGMT").addClass("btn_simple_active");
-        $(".selectEST").removeClass("btn_simple_active");
+        $(".selectEDT, .selectCDT").removeClass("btn_simple_active");
+    } else if (clicked === 'EDT') {
+        $(".EDT").css("display", "block");
+        $(".GMT, .CDT").css("display", "none");
+        $(".selectGMT, .selectCDT").removeClass("btn_simple_active");
+        $(".selectEDT").addClass("btn_simple_active");
     } else {
-        $(".EST").css("display", "block");
-        $(".GMT").css("display", "none");
-        $(".selectGMT").removeClass("btn_simple_active");
-        $(".selectEST").addClass("btn_simple_active");
+        $(".CDT").css("display", "block");
+        $(".GMT, .EDT").css("display", "none");
+        $(".selectGMT, .selectEDT").removeClass("btn_simple_active");
+        $(".selectCDT").addClass("btn_simple_active");
     }
-});
+}); 
 
 $('.modalName').click(function () {
     var modalName = ($(this).attr('class').split(' ')[1])
@@ -172,8 +182,8 @@ $(".expandHeader").click(function () {
 $(document).ready(function(){
     var $form = $('form');
     $form.submit(function(){
-        $('#questionForm').hide(400);
-        $('#questionFormSuccess').show(400);
+        $('#quEDTionForm').hide(400);
+        $('#quEDTionFormSuccess').show(400);
     });
     });
 
@@ -205,8 +215,8 @@ $(document).ready(function () {
         $(".agendaBar").toggle();
         $(this).toggleClass('is-active').next(".agendaBarToggle").stop().slideToggle(500);
     });
-    $(".changeTest").click(function() {
-        $('.joinTest').toggleClass('hiddenContent');
+    $(".changeTEDT").click(function() {
+        $('.joinTEDT').toggleClass('hiddenContent');
         $('.countDown').toggleClass('hiddenContent');
     });
     $('.shareWindow, .formBackup').click(function (){

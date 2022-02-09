@@ -2670,8 +2670,11 @@ background: white;
 span.GMT:after{
   content: " GMT";
 }
-span.EST:after{
-  content: " EST";
+span.EDT:after{
+  content: " EDT";
+}
+span.CDT:after{
+  content: " CDT";
 }
 .session-type .type {
   position: relative;
