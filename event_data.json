@@ -637,7 +637,7 @@
             "bio": "Rob Garcia has spent the last decade emersed in the integrated risk management software space. From product design to sales and implementation, Rob has directed innovation in the Americas, EMEA, and APAC markets. Most recently, he worked as an advisory consultant for a GRC services partner specializing in large scale software deployments for asset intensive organizations before joining Wolters Kluwer | Enablon as a Solution Consultant and Risk Management Subject Matter Expert.",
             "linkedIn": "https://www.linkedin.com/in/robert-garcia-96614863/",
             "position": "panelist",
-            "speaking": []
+            "speaking": ["s103"]
         },
         {
             "id": "tonyHenshaw",
@@ -750,26 +750,26 @@
             "speaking": ["s302"]
         },
         {
+            "id": "nathaliePerrier",
+            "name": "Nathalie Perrier",
+            "title": "Building Software VP",
+            "company": "Schneider Electric",
+            "photo": "https://events.verdantix.com/wp-content/uploads/2022/02/Nathalie-perrier_Profile.jpg",
+            "bio": "Nathalie Perrier, Building Software VP in Schneider Electric, has been contributing to the digitization of the end to end building lifecycle from design, to build and up to operation & maintenance for a more sustainable future. Nathalie led organizations developing customer digital services with a focus on areas of strategy, product management, engineering and customer support. To be successful in these missions Nathalie made sure to define and communicate a clear vision, build and engage diverse teams, put in place customer centric organizations without forgetting to drive the necessary transformations. Nathalie is currently leading the development of the joint proposition for smart sustainable buildings together with Planon Software.",
+            "linkedIn": "https://www.linkedin.com/in/nathalie-perrier-3236a321/",
+            "position": "panelist",
+            "speaking": ["s301"]
+        },
+        {
             "id": "davidPicton",
             "name": "David Picton",
             "title": "SVP of Sustainability",
             "company": "Alcumus",
-            "photo": "https://events.verdantix.com/wp-content/uploads/2022/02/DP.png",
-            "bio": "Bio coming soon",
+            "photo": "https://events.verdantix.com/wp-content/uploads/2022/02/David-Picton_Profile.jpg",
+            "bio": "David brings multi-sector experience to Alcumus, having held chief sustainability and advisory roles in the technology, infrastructure, and logistics sectors. Through his consultancy work, David has helped global corporations and organisations in the fields of leadership, people engagement, change, operational performance, and strategic growth. As SVP of Sustainability, David uses the theme of ‘Mutual Partnerships’ as the bedrock of his work to establish sustainability as the ‘golden thread’ connecting sustainably-minded companies with contractors and suppliers. In his global role, David will be responsible for driving the sustainability strategy within Alcumus and new product development, linked to ESG and sustainability through technology and data across the UK and North America.",
             "linkedIn": "https://uk.linkedin.com/in/davidpicton",
             "position": "panelist",
             "speaking": ["s202"]
-        },
-        {
-            "id": "darlenePope",
-            "name": "Darlene Pope",
-            "title": "President, North America",
-            "company": "Planon",
-            "photo": "https://events.verdantix.com/wp-content/uploads/2022/02/DP.png",
-            "bio": "Bio coming soon",
-            "linkedIn": "",
-            "position": "panelist",
-            "speaking": []
         },
         {
             "id": "jessicaPransky",
@@ -805,17 +805,6 @@
             "speaking": ["s102"]
         },
         {
-            "id": "martyStern",
-            "name": "Marty Stern",
-            "title": "Global Director",
-            "company": "Colgate-Palmolive",
-            "photo": "https://events.verdantix.com/wp-content/uploads/2022/02/Marty-Stern_Profile-Image.jpg",
-            "bio": "Bio coming soon",
-            "linkedIn": "https://www.linkedin.com/in/sam-renshaw-47aa0610a/",
-            "position": "panelist",
-            "speaking": ["s101"]
-        },
-        {
             "id": "connorTaylor",
             "name": "Connor Taylor",
             "title": "Analyst",
@@ -836,6 +825,17 @@
             "linkedIn": "https://www.linkedin.com/in/mtohani/",
             "position": "analyst",
             "speaking": ["s104"]
+        },
+        {
+            "id": "michaelTuohy",
+            "name": "Michael Tuohy",
+            "title": "Vice President, Environment & Sustainability",
+            "company": "Intelex",
+            "photo": "https://events.verdantix.com/wp-content/uploads/2022/02/MT.png",
+            "bio": "Bio coming soon",
+            "linkedIn": "",
+            "position": "panelist",
+            "speaking": ["s203"]
         }
     ]
   }
