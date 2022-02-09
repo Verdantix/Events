@@ -4743,7 +4743,7 @@ p.submit {
 .showme {
   opacity:1!important;
 }
-.modalTile.speakerTile {
+#speakers .modalTile {
     width: 100%;
     height: 320px;
     overflow: hidden;
@@ -4752,7 +4752,7 @@ p.submit {
     border-radius: 5px;
     cursor: pointer;
 }
-.modalTile.speakerTile .speakerImage{
+#speakers .modalTile .speakerImage{
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -4761,7 +4761,7 @@ p.submit {
     transition: all .3s ease-in-out;
 }
 
-.modalTile.speakerTile .speakerImage::before{
+#speakers .modalTile .speakerImage::before{
     content: '';
     position: absolute;
     top: 0;
@@ -4773,7 +4773,7 @@ p.submit {
     mix-blend-mode: multiply;
     opacity: .6;
 }
-.modalTile.speakerTile:hover .speakerImage {
+#speakers .modalTile:hover .speakerImage {
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
