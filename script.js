@@ -48,21 +48,21 @@ jQuery($ => {
   
 $(document).ready(function () {
     var clicked = localStorage.getItem("btnClicked");
-    if (clicked === 'GMT') {
-        $(".GMT").css("display", "block");
-        $(".EDT, .CDT").css("display", "none");
-        $(".selectGMT").addClass("btn_simple_active");
-        $(".selectEDT, .selectCDT").removeClass("btn_simple_active");
+    if (clicked === 'CDT') {
+        $(".CDT").css("display", "block");
+        $(".GMT, .EDT").css("display", "none");
+        $(".selectGMT, .selectEDT").removeClass("btn_simple_active");
+        $(".selectCDT").addClass("btn_simple_active");
     } else if (clicked === 'EDT') {
         $(".EDT").css("display", "block");
         $(".GMT, .CDT").css("display", "none");
         $(".selectGMT, .selectCDT").removeClass("btn_simple_active");
         $(".selectEDT").addClass("btn_simple_active");
     } else {
-        $(".CDT").css("display", "block");
-        $(".GMT, .EDT").css("display", "none");
-        $(".selectGMT, .selectEDT").removeClass("btn_simple_active");
-        $(".selectCDT").addClass("btn_simple_active");
+        $(".GMT").css("display", "block");
+        $(".EDT, .CDT").css("display", "none");
+        $(".selectGMT").addClass("btn_simple_active");
+        $(".selectEDT, .selectCDT").removeClass("btn_simple_active");
     }
 }); 
 
