@@ -4743,3 +4743,84 @@ p.submit {
 .showme {
   opacity:1!important;
 }
+.modalTile.speakerTile {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;    
+    border-radius: 5px;
+    cursor: pointer;
+}
+.modalTile.speakerTile .speakerImage{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-in-out;
+}
+
+.modalTile.speakerTile .speakerImage::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(#11132600, #111326ea);
+    background-size: cover;
+    mix-blend-mode: multiply;
+    opacity: .6;
+}
+.modalTile.speakerTile:hover .speakerImage {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+    filter: brightness(125%);
+}
+.davidMetcalfe .speakerImage {
+    background-image: url(https://events.verdantix.com/wp-content/uploads/2021/08/David-Metcalfe_Rectangle.png);
+}
+.speakerDetails {
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.speakerDetails p {
+    padding:0px;
+    margin:0px;
+    line-height: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.speakerDetails .speakerName{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.speakerDetails .speakerTitle{
+    color: #f0f0f09d;
+    margin-bottom: 10px;
+}
+.chair:after {
+  content:'chair';
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+  color: #111326;
+  padding:1px 8px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  opacity: .6;
+  line-height: 1.5;
+}
