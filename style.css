@@ -7,6 +7,9 @@
 .virtual li.menu-item a,.virtual li.menu-item a, .thank-you li.menu-item a {
   color:#111326;
 }
+li.menu-item a {
+  color: white;
+}
 body.join {
   overflow: hidden;
   background-color: #f7f7f7;
@@ -3546,6 +3549,9 @@ background:#f6f6f6d8;
 }
 .simonJones .agendaProfile, .simonJones .speaker_tile__image {
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Simon-Jones_Profile.jpg);
+}
+.susanLaseckiCoiro .agendaProfile, .susanLaseckiCoiro .speaker_tile__image {
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Susan-Lasecki-Coiro_Profile.jpg);
 }
 
 .popModal {

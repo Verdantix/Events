@@ -1,4 +1,23 @@
 {
+    "eventData" : 
+    [
+        {
+    
+            "id": "s100",
+            "days": "3",
+            "sessions": "15",
+            "practice": "Welcome",
+            "location": "13:55",
+            "title": "9:55",
+            "sub": "8:55",
+            "date": "5 minutes",
+            "summary": "EHS & operations functions around the world demonstrated their strategic value during the pandemic, but they now face a new focus as CEOs turn their attentions to ongoing operational resilience and innovative performance. This virtual summit will examine the main environmental strategic priorities for organisations in 2022.",
+            "form": "tab-btn-one",
+            "video": "tab-btn-one",
+            "css": "Keynote"
+        }
+    ],
+    
     "sessionData" : 
     [
         {
