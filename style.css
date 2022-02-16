@@ -3952,6 +3952,9 @@ background:#f6f6f6d8;
     grid-row-gap: 20px;
     grid-template-columns: 1fr 1fr;
   }
+  .speaker__grid_s {
+    grid-template-columns: 1fr 1fr;
+  }
   .footer_extra{
     grid-template-columns: 1fr;
   }
@@ -4005,6 +4008,9 @@ background:#f6f6f6d8;
     }
     .summit_agenda_session {
       padding:0px 10px;
+    }
+    .sponsor_main_logo img {
+      width: 250px;
     }
 }
 
