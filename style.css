@@ -3944,6 +3944,9 @@ background:#f6f6f6d8;
   .modalContent_margin {
     margin-right: 25px;
   }
+  .toTop{
+    display: none;
+  }
   .speaker__grid {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
