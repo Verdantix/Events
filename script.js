@@ -74,14 +74,16 @@ $('.modalName').click(function () {
         $('.' + modalName + popModal).show(300);
         $('body').addClass('stop-scrolling');
         $('.modalWidth').addClass("margin-right");
-        $('.modalContent').css("margin-right", "42px");
+        $('.modalContent').addClass("modalContent_margin");
+        //$('.modalContent').css("margin-right", "42px");
     }
 });
 $('.close, .modalContainer, .speakingSession a, .speakingSession div').click(function () {
     $('.popModal').hide(300);
     $('body').removeClass('stop-scrolling');
     $('.modalWidth').removeClass("margin-right");
-    $('.modalContent').css("margin-right", "25px");
+    $('.modalContent').removeClass("modalContent_margin");
+    //$('.modalContent').css("margin-right", "25px");
 });
 $(".modalContainer .modalContent").click(function (e) {
     e.stopPropagation();

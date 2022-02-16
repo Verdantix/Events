@@ -17,7 +17,24 @@
             "css": "Keynote"
         }
     ],
+    "dayData" : 
+    [
+        {
     
+            "id": "s100",
+            "days": "3",
+            "sessions": "15",
+            "practice": "Welcome",
+            "location": "13:55",
+            "title": "9:55",
+            "sub": "8:55",
+            "date": "5 minutes",
+            "summary": "EHS & operations functions around the world demonstrated their strategic value during the pandemic, but they now face a new focus as CEOs turn their attentions to ongoing operational resilience and innovative performance. This virtual summit will examine the main environmental strategic priorities for organisations in 2022.",
+            "form": "tab-btn-one",
+            "video": "tab-btn-one",
+            "css": "Keynote"
+        }
+    ],
     "sessionData" : 
     [
         {
@@ -32,7 +49,7 @@
             "duration": "5 minutes",
             "calendar": "https://go.verdantix.com/l/562622/2022-01-29/5w1k9r/562622/1643496147uOy54bAy/Innovating_for_Sustainable_Operations___Test.ics",
             "title": "EHS & Operations",
-            "summary": "EHS & operations functions around the world demonstrated their strategic value during the pandemic, but they now face a new focus as CEOs turn their attentions to ongoing operational resilience and innovative performance. This virtual summit will examine the main environmental strategic priorities for organisations in 2022.",
+            "summary": "EHS & operations functions around the world demonstrated their strategic value during the pandemic, but they now face a new focus as CEOs turn their attention to ongoing operational resilience and innovative performance. This virtual summit will examine the main environmental strategic priorities for organisations in 2022.",
             "agendaIndex": "tab-btn-one",
             "css": "Keynote"
         },
@@ -212,7 +229,7 @@
             "duration": "5 minutes",
             "calendar": "https://go.verdantix.com/l/562622/2022-01-29/5w1k9r/562622/1643496147uOy54bAy/Innovating_for_Sustainable_Operations___Test.ics",
             "title": "Net Zero & Energy Transition",
-            "summary": "Thousands of firms across the globe are making commitments to achieve net zero emissions or to migrate to a lower carbon operational model but few have a strategy in place that will help them deliver on this goal.",
+            "summary": "Thousands of firms across the globe are making commitments to achieve net zero emissions or to migrate to a lower carbon operational model, but few have a strategy in place that will help them deliver on this goal.",
             "agendaIndex": "tab-btn-two",
             "css": "Keynote"
         },
@@ -543,7 +560,7 @@
             "title": "Research Director, Environment, Health & Safety",
             "company": "Verdantix",
             "photo": "https://events.verdantix.com/wp-content/uploads/2021/10/Bill-Pennington_Rectangle.png",
-            "bio": "Bill leads the Verdantix Environment, Health & Safety practice. His current agenda focuses on EHS and sustainability services, product stewardship as well as benchmarking EHS technology buyer’s budgets, priorities and preferences globally. Bill comes from a background of corporate EHS roles in the manufacturing and logistics industries. He holds an MBS degree in sustainability from the Rutgers University.",
+            "bio": "Bill leads the Verdantix Environment, Health & Safety practice. His current agenda focuses on EHS and sustainability services, product stewardship as well as benchmarking EHS technology buyer’s budgets, priorities and preferences globally. Bill comes from a background of corporate EHS roles in the manufacturing and logistics industries. He holds an MBS degree in sustainability from Rutgers University.",
             "linkedIn": "https://www.linkedin.com/in/bill-pennington-33612930/",
             "position": "chair",
             "speaking": ["s100", "s101", "s102", "s103", "s104"]
@@ -554,7 +571,7 @@
             "title": "Research Director, ESG & Sustainability",
             "company": "Verdantix",
             "photo": "https://events.verdantix.com/wp-content/uploads/2021/08/Kim-Knickle_Rectangle.png",
-            "bio": "Kim leads the Verdantix ESG & Sustainability practice, addressing business challenges and priorities in ESG and sustainability through technology. Her current research agenda focuses on ESG, sustainability and climate change services market forecast, and digital strategies to improve sustainability risk management. Her research expertise also includes manufacturing and retail industry subject matter expert, thought leadership, storytelling, emerging technology research and analysis (cloud, artificial intelligence, augmented and virtual reality, computer vision, IoT), sales enablement, competitive and SWOT analysis, market research, research operations.",
+            "bio": "Kim leads the Verdantix ESG & Sustainability practice, addressing business challenges and priorities in ESG and sustainability through technology. Her current research agenda focuses on ESG, sustainability and climate change services market forecasts, and digital strategies to improve sustainability risk management. Her research expertise also includes manufacturing and retail industry subject matter, thought leadership, storytelling, emerging technology research and analysis (cloud, artificial intelligence, augmented and virtual reality, computer vision, IoT), sales enablement, competitive and SWOT analysis, market research, research operations.",
             "linkedIn": "https://www.linkedin.com/in/kim-knickle/",
             "position": "chair",
             "speaking": ["s200", "s201", "s202", "s203", "s204"]
@@ -598,7 +615,7 @@
             "title": "CEO",
             "company": "Isometrix",
             "photo": "https://events.verdantix.com/wp-content/uploads/2022/02/Karl-Campbell_Profile.jpg",
-            "bio": "Karl has over 30 years of experience in leading and managing global Technology and Risk Management businesses. Born in South Africa his international career has included time leading businesses in South Africa, Australia, UK, The Netherlands and the USA; working for the likes of Vodafone, Logical, Rivo Software and Progress Software. The past ten years has seen Karl focus on high growth Private Equity (PE) backed technology companies, helping them to scale and achieve successful exits. Prior to joining IsoMetrix, Karl was CEO of SafetySA, a leading provider of Safety Training, Testing, Inspection, and Certification services. Karl holds degrees in Engineering (EEE), an MBA, EMBA, and a Doctorate in Economics.",
+            "bio": "Karl has over 30 years of experience in leading and managing global Technology and Risk Management businesses. Born in South Africa his international career has included time leading businesses in South Africa, Australia, the UK, The Netherlands and the USA; working for the likes of Vodafone, Logical, Rivo Software and Progress Software. The past ten years has seen Karl focus on high growth Private Equity (PE) backed technology companies, helping them to scale and achieve successful exits. Prior to joining IsoMetrix, Karl was CEO of SafetySA, a leading provider of Safety Training, Testing, Inspection, and Certification services. Karl holds degrees in Engineering (EEE), an MBA, EMBA, and a Doctorate in Economics.",
             "linkedIn": "https://www.linkedin.com/in/karlcampbell/",
             "position": "panelist",
             "speaking": ["s201"]
@@ -763,7 +780,7 @@
             "title": "Vice President, Advisory Services",
             "company": "Verdantix",
             "photo": "https://events.verdantix.com/wp-content/uploads/2022/01/Stuart-Neumann_Rectangle.png",
-            "bio": "Stuart Neumann leads Verdantix consulting services worldwide which involves delivering high impact projects for clients seeking help with challenges and opportunities in the energy, EH&S and sustainability markets. His client project experience in the energy sector spans energy services commercial due diligence, go to market strategy, renewable energy market forecasts, power utility sustainability benchmarks and CEO-level thought leadership projects. Stuart joined Verdantix in 2010. Prior to his career at Verdantix, Stuart was a management consultant at Accenture for 5 years. Stuart holds an MSc in Environmental Geomorphology from Oxford University and a BA in Geography from the University of Nottingham.",
+            "bio": "Stuart Neumann leads Verdantix consulting services worldwide which involves delivering high impact projects for clients seeking help with challenges and opportunities in the energy, EHS and sustainability markets. His client project experience in the energy sector spans energy services commercial due diligence, go to market strategy, renewable energy market forecasts, power utility sustainability benchmarks and CEO-level thought leadership projects. Stuart joined Verdantix in 2010. Prior to his career at Verdantix, Stuart was a management consultant at Accenture for 5 years. Stuart holds an MSc in Environmental Geomorphology from Oxford University and a BA in Geography from the University of Nottingham.",
             "linkedIn": "https://www.linkedin.com/in/stuart-neumann-6a870021/",
             "position": "analyst",
             "speaking": ["s302"]

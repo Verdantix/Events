@@ -919,6 +919,8 @@ span.event-sub-title{
 .event__head_title span {
   white-space: nowrap;
   display: block;
+  font-weight:800;
+  font-family: 'Poppins', sans-serif;
 }
 
 .event__head_date {
@@ -3205,6 +3207,7 @@ to {
   background-image:
       linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)),
       url('https://events.verdantix.com/wp-content/uploads/2022/02/Event_March_EHS_Day.jpg');
+      border-radius:10px 0px 0px 10px;
 }
 .item-1:hover {
       background: #2F536B;
@@ -3221,6 +3224,7 @@ to {
   background-image:
       linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)),
       url('https://events.verdantix.com/wp-content/uploads/2022/02/Event_March_NetZero_Day.jpg');
+      border-radius:0px 10px 10px 0px;
 }
 .item-3:hover {
       background: #30C3CD; 
@@ -3264,6 +3268,9 @@ to {
   width: 100%;
   max-width: 800px;
   position: relative;
+}
+.modalContent_margin {
+  margin-right: 42px;
 }
 
 /* The Close Button */
@@ -3479,7 +3486,7 @@ background:#f6f6f6d8;
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/TH.png);
 }
 .kimKnickle .agendaProfile, .kimKnickle .speaker_tile__image {
-  background-image: url(https://events.verdantix.com/wp-content/uploads/2021/08/Kim-Knickle_Rectangle.png);
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Kim-Knickle_Rectangle.png);
 }
 .samRenshaw .agendaProfile, .samRenshaw .speaker_tile__image {
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/01/Sam-Renshaw_Rectangle.png);
@@ -3515,7 +3522,7 @@ background:#f6f6f6d8;
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Jill_James_Profile.jpg);
 }
 .robGarcia .agendaProfile, .robGarcia .speaker_tile__image {
-  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Rob-Garcia_Profile.jpg);
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Rob-Garcia_Profile-Update.jpg);
 }
 .karlCampbell .agendaProfile, .karlCampbell .speaker_tile__image {
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Karl-Campbell_Profile.jpg);
@@ -3527,19 +3534,19 @@ background:#f6f6f6d8;
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Tina-Duffy_Profile.jpg);
 }
 .elizabethLogan .agendaProfile, .elizabethLogan .speaker_tile__image {
-  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/EL.png);
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Elizabeth-Logan_Profile.jpg);
 }
 .johnLovenburg .agendaProfile, .johnLovenburg .speaker_tile__image {
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/John-Lovenburg_Profile.jpg);
 }
 .jeremyMollet .agendaProfile, .jeremyMollet .speaker_tile__image {
-  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/JM.png);
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Jeremy-Mollet_Profile.jpg);
 }
 .nathaliePerrier .agendaProfile, .nathaliePerrier .speaker_tile__image {
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Nathalie-perrier_Profile.jpg);
 }
 .michaelTuohy .agendaProfile, .michaelTuohy .speaker_tile__image {
-  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/MT.png);
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Michael-Tuohy_Profile.jpg);
 }
 .davidPicton .agendaProfile, .davidPicton .speaker_tile__image {
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/David-Picton_Profile.jpg);
@@ -3553,6 +3560,22 @@ background:#f6f6f6d8;
 .susanLaseckiCoiro .agendaProfile, .susanLaseckiCoiro .speaker_tile__image {
   background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Susan-Lasecki-Coiro_Profile.jpg);
 }
+.colinBall .agendaProfile, .colinBall .speaker_tile__image {
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Colin-Ball_Profile.jpg);
+}
+.joeStablein .agendaProfile, .joeStablein .speaker_tile__image {
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Joe-Stablein_Profiles.jpg);
+}
+.valerieLudwig .agendaProfile, .valerieLudwig .speaker_tile__image {
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Valerie-Ludwig_Profile.jpg);
+}
+.joshNothwang  .agendaProfile, .joshNothwang .speaker_tile__image {
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Josh-Nothwang_Profile.jpg);
+}
+.jesseCerutti  .agendaProfile, .jesseCerutti .speaker_tile__image {
+  background-image: url(https://events.verdantix.com/wp-content/uploads/2022/02/Jesse-Cerutti_Profile.JPG.jpg);
+}
+
 
 .popModal {
   display: none;
@@ -3687,6 +3710,12 @@ background:#f6f6f6d8;
 }
 .agendaBar_calendar {
   align-items: end;
+}
+.item-1 {
+      border-radius:10px 10px 0px 0px;
+}
+.item-3 {
+      border-radius:0px 0px 10px 10px;
 }
 }
 @media (max-width: 991px) {
@@ -3911,6 +3940,9 @@ background:#f6f6f6d8;
   }
   .speakerModal .speaker_tile__image {
     border-radius: 5px 5px 0 0 ;
+  }
+  .modalContent_margin {
+    margin-right: 25px;
   }
   .speaker__grid {
     grid-column-gap: 20px;
